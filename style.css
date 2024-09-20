@@ -11,7 +11,7 @@
   /*debug*/
 
   .debug {
-    background-color: brown;
+    background-color: rgb(139, 198, 244);
     border:2px dashed black;
     padding: 10px;
     
@@ -19,12 +19,12 @@
     }
 
     .debug .debug{
-        background-color: red;
+        background-color: rgb(251, 255, 0);
       }
     
-      .debug .debug .debug{
-        background-color: chocolate;
-      }
+      
+       
+      
     
       .debug .debug .debug .debug{
         background-color: darkblue;
@@ -42,9 +42,10 @@
  /*HEADER*/
 
 
- .page-header{
+ .page-header > .container{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
+
     
 
  }
@@ -53,6 +54,8 @@
     list-style-type: none;
  }
 
- .logo{
-    margin: ;
+ 
+
+ .list-items{
+    display: inline-block;
  }
