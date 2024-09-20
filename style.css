@@ -6,6 +6,17 @@
     margin: 0;
     padding: 0;
   }
+
+
+  /*debug*/
+
+  .debug {
+    background-color: brown;
+    margin:2px dashed black;
+    padding: 5px;
+    
+
+    }
   
   /* # UTILS */
   
@@ -15,3 +26,5 @@
     width: 1000px;
     max-width: 100%;
   }
+
+  
