@@ -12,7 +12,7 @@
 
   .debug {
     background-color: rgb(139, 198, 244);
-    border:2px dashed black;
+    border:2px;
     padding: 10px;
     
 
@@ -21,14 +21,22 @@
     .debug .debug{
         background-color: rgb(251, 255, 0);
       }
+
+      .debug .debug .debug{
+        background-color: rgb(148, 25, 25);
+      }
+
     
+      .debug .debug .debug .debug{
+        background-color: blue;
+
+      }
       
        
       
     
-      .debug .debug .debug .debug{
-        background-color: darkblue;
-      }
+      
+      
   
   /* # UTILS */
   
@@ -39,12 +47,25 @@
     max-width: 100%;
   }
 
+
+
+  .container-2 {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1000px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
  /*HEADER*/
 
 
  .page-header > .container{
     display: flex;
     justify-content:center;
+    background-color: antiquewhite;
 
     
 
@@ -53,9 +74,40 @@
  ul{
     list-style-type: none;
  }
-
+ body{
+    background-color: aliceblue;
+ }
  
 
  .list-items{
     display: inline-block;
  }
+ 
+
+ .container-1 {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1000px;
+    max-width: 100%;
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+  }
+ 
+    
+.box{
+
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: deeppink;
+    margin-top: 20px;
+}
+
+
+
+
+
+ 
+ 
+ 
